@@ -1,0 +1,121 @@
+h1,h2 {
+    color: rgb(34, 131, 222)
+}
+
+.jobs {
+    color: cadetblue;
+}
+
+.items li {
+    color: blue;
+}
+
+li.jobs {
+    color: rgb(48, 243, 90);
+}
+
+ul p.jobs {
+    font-size: 0.5rem;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    gap: 3rem;
+}
+
+.item2 {
+    flex: 1;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    background-color: rgb(223, 240, 208);
+    list-style: none;
+    padding: 18px;
+}
+
+.it {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    font-family: 'Bricolage Grotesque', sans-serif, 'Libre Baskerville', serif;
+
+}
+
+.css {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    font-family: 'Bricolage Grotesque', sans-serif, 'Libre Baskerville', serif;
+}
+
+li {
+    font-family: serif;
+    margin: 8px;
+}
+
+.submit {
+    background-color: rgb(16, 133, 98);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+
+@media(max-width:1200px) {
+    body {
+        background-color: rgb(247, 247, 173);
+    }
+
+    .container {
+        height: 100vh;
+    }
+
+}
+
+.container2{
+    background-color: rgb(237, 188, 188);
+    margin: 12px;
+    height: 800px;
+    width: 100%;
+}
+.rectangle{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(218, 114, 114);
+    top: 200px;
+    left: 150px;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+.circle{
+    position: absolute;
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 100%;
+    top:150px;
+    left: 280px;
+}
+div > p{
+   color: white;
+   font-size: 1rem;
+   font-weight: bolder;
+   font-family: 'Bricolage Grotesque', 'Libre Baskerville';
+}
+ div > div> p{
+   color: white;
+   font-size: 3rem;
+   font-weight: bolder;
+   text-align: center;
+   font-family: 'Bricolage Grotesque', 'Libre Baskerville';
+}
